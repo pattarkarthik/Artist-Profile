@@ -1,0 +1,112 @@
+#image{
+width :100%;
+height : 100%;
+position : absolute;
+margin-top : 0px;
+}
+.navbar1{
+position: fixed;
+width :100%;
+background :#505050;
+height :80px;
+display : flex;
+opacity : 0.7;
+}
+
+#brandname1{
+position: absolute;
+margin-top: 20px ;
+margin-left : 100px;
+color : white;
+font-size : 2em;
+font-family : Brush Script MT, Brush Script Std, cursive;
+cursor: pointer;
+
+}
+#brandname1:hover {
+    color: rgb(248, 248, 163);
+}
+#item{
+color : white;
+font-size : 1.5em;
+margin : auto;
+font-family: Arbutus;
+}
+#brand1{
+max-height : 100%;
+max-width : 100%;
+border-radius : 50%;
+margin-left : 10px;
+}
+.carousel{
+position : relative;
+top : 0px;
+z-index : -1;
+}
+.d-block{
+height : 600px;
+}
+
+.image1{
+background : url("2.jpg");
+}
+
+.navbar1 a {
+text-decoration : none;
+color : white;
+}
+.navbar1 a:hover{
+    color: rgb(248, 248, 163);
+}
+
+.carousel-caption{
+top : 400px;
+margin-right : 400px;
+}
+.last-image{
+position:absolute;
+margin-left:700px;
+}
+.about{
+margin-top : 10px;
+font-color : red;
+width : 100%;
+display: flex;
+flex-direction: column;
+}
+.heading{
+font-color:black;
+font-family: Alfa Slab One;
+font-size:40px;
+padding : 10px;
+
+margin-left:45%;
+}
+.profile-para{
+top : 60px;
+padding : 30px;
+}
+
+.contact{
+margin-top : 10px;
+font-color : red;
+width : 100%;
+}
+.contact-text{
+font-color:black;
+font-family: Alfa Slab One;
+font-size:40px;
+padding : 10px;
+margin-left:42%;
+}
+
+#icon{
+height : 50px;
+width : 50px;
+margin-left: 220px;
+float:inline-start;
+
+}
+.icon-div a{
+height : 51px;
+}
